@@ -1,0 +1,39 @@
+/* public/styles.css */
+body {
+    background: skyblue;
+}
+
+h1 {
+    padding: 1rem 3rem;
+    color: #fff;
+    border-radius: 100vh;
+    background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), 
+    to(#00e3ae));
+    background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
+    background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
+  }
+
+  p {
+    line-height: 1;
+  }
+
+/*input {
+    width: 10em;
+    height: 3em;
+}*/
+
+button {
+    width: 10em;
+    height: 3em;
+}
+
+.style {
+    width: fit-content;
+    height: 2em;
+    font-size: large;
+}
+
+.po{
+    font-size: 50px;
+    font-weight: bold;
+}
