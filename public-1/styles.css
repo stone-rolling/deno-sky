@@ -11,11 +11,12 @@ body {
 
  button {
     width: 10em;
-    height: 2em;
+    height: 3em;
 }
 
 .style{
-    font-size: 20px;
+    width: 10em;
+    height: 3em;
 }
 
 h1 {
