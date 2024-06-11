@@ -1,45 +1,9 @@
-/* SCSS変数の宣言は不要なので直接パスを指定します */
-
-body.ajisai {
-    display: block;
-    margin: 0;
-    background: url('public-1/ajisai.jpg') no-repeat center center; /* 画像パスを指定 */
-    background-size: cover; /* サイズをカバーに変更して、画面全体に合わせる */
-    width: 100vw; /* 幅を100%に設定 */
-    height: 100vh; /* 高さを100%に設定 */
-    overflow: hidden;
-    text-indent: -500%;
-    white-space: nowrap;
-}
-
+/* public/styles.css */
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    background: skyblue;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 20px;
-}
+.po{
+    font-size: 50px;
 
-p {
-    text-align: center;
-    margin: 10px 0;
-}
-
-input.style {
-    display: block;
-    margin: 10px auto;
-    padding: 5px;
-    font-size: 16px;
-}
-
-button {
-    display: block;
-    margin: 10px auto;
-    padding: 5px 10px;
-    font-size: 16px;
-    cursor: pointer;
 }
