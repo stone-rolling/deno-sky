@@ -1,39 +1,45 @@
-/* public/styles.css */
+/* SCSS変数の宣言は不要なので直接パスを指定します */
+
+body.ajisai {
+    display: block;
+    margin: 0;
+    background: url('public-1/ajisai.jpg') no-repeat center center; /* 画像パスを指定 */
+    background-size: cover; /* サイズをカバーに変更して、画面全体に合わせる */
+    width: 100vw; /* 幅を100%に設定 */
+    height: 100vh; /* 高さを100%に設定 */
+    overflow: hidden;
+    text-indent: -500%;
+    white-space: nowrap;
+}
+
 body {
-    background: skyblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-    padding: 1rem 3rem;
-    color: #fff;
-    border-radius: 100vh;
-    background-image: -webkit-gradient(linear, right top, left top, from(#9be15d), 
-    to(#00e3ae));
-    background-image: -webkit-linear-gradient(right, #9be15d 0%, #00e3ae 100%);
-    background-image: linear-gradient(to left, #9be15d 0%, #00e3ae 100%);
-  }
+    text-align: center;
+    margin-top: 20px;
+}
 
-  p {
-    line-height: 1;
-  }
+p {
+    text-align: center;
+    margin: 10px 0;
+}
 
-/*input {
-    width: 10em;
-    height: 3em;
-}*/
+input.style {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    font-size: 16px;
+}
 
 button {
-    width: 10em;
-    height: 3em;
-}
-
-.style {
-    width: fit-content;
-    height: 2em;
-    font-size: large;
-}
-
-.po{
-    font-size: 50px;
-    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
